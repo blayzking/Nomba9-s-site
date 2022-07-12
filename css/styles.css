@@ -1,0 +1,288 @@
+
+body {
+    background: linear-gradient(rgba(255,255,255, 0.3), rgba(255,255,255, 0.3)),
+    url('../images/Noise\ Bg.png');
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Declaring this allows you to add padding to your div without increasing the size of the div itself. */
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+.main-container {
+    position: relative;
+    width: 70%;
+    min-width: 500px;
+    margin: auto;
+}
+
+.hello {
+    /* display: inline-block; */
+    background-color: black;
+    color: white;
+    align-content: flex-start;
+    /* width: fit-content; */
+    width: 80px;
+    height: 22px;
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+.intro {
+    /* width: 70%; */
+/* height: 97px; */
+left: 320px;
+top: 233px;
+}
+h1 {
+    /* position: absolute; */
+    
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 97px;
+    letter-spacing: -0.02em;
+}
+
+.about-me {
+    /* position: absolute; */
+/* width: 70%; */
+/* height: 117px;
+left: 320px;
+top: 390px; */
+font-size: 1.3em;
+}
+p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 39px;
+letter-spacing: -0.03em;
+}
+
+.first-segment {
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    text-align: left; 
+    height: 375px;
+     left: 0px;
+    right: 0px; 
+    background-color: #222222;
+    color: white;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.seg1-heading {
+    font-size: 27px;
+}
+.seg1-subheading {
+    position: relative;
+    top: -30px;
+    font-size: 16px;
+}
+.seg1-paragraph {
+    position: relative;
+    top: -40px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.03em;
+}
+.seg1-buttons {
+    display: inline;
+    position: relative;
+    top: -45px;
+}
+.seg1-button1 {
+    display: inline-block;
+    font-size:9px;
+    font-weight: bold;
+   line-height:8px;
+   border-color:#222222;
+   color:#222222;
+   border-radius:5px;
+   background-color:#ffffff;
+   padding:14px;
+}
+
+.seg1-button2 {
+    display: inline-block;
+    font-size:9px;
+    font-weight: bold;
+   line-height:8px;
+   color:white;
+   border-width:1px;
+    border-color:#fafafa;
+    border-style:solid;
+   border-radius:5px;
+   background-color:#222222;
+   padding:14px;
+}
+
+.firstSegPics {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+.firstpic {
+    position: relative;
+   width: 250px;
+   height: 250px;
+   object-fit: cover;
+   top: 124px;
+   right: 10px;
+}
+.secondpic {
+    position: relative;
+    width: 250px;
+   height: 250px;
+   object-fit: cover;
+   top: -1px;
+   right: 0px;
+}
+.second-segment {
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    text-align: left;
+    height: 375px;
+     left: 0px;
+    right: 0px; 
+    background-color: #1F1F43;
+    color: white;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.seg2-3-heading {
+    font-size: 27px;
+}
+.seg2-3-subheading {
+    position: relative;
+    top: -30px;
+    font-size: 16px;
+}
+
+.seg2-3-paragraph-container {
+    width: 498px;
+}
+.seg2-3-paragraph {
+    position: relative;
+    top: -40px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.03em;
+    word-wrap: break-word;
+}
+.seg2-3-buttons {
+    display: inline;
+    position: relative;
+    top: -45px;
+}
+.seg2-button1 {
+    display: inline-block;
+    font-size:9px;
+    font-weight: bold;
+   line-height:8px;
+   border-color:#222222;
+   color:#222222;
+   border-radius:5px;
+   background-color:#ffffff;
+   padding:14px;
+}
+
+.secondSegPics {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+
+.thirdpic {
+    position: relative;
+   object-fit: cover;
+   top: 34px;
+   right: 0px;
+}
+.third-segment {
+    position: relative;
+    overflow: hidden;
+    margin: 30px auto auto auto;
+    text-align: left; 
+    height: 375px;
+     left: 0px;
+    right: 0px; 
+    background-color: #0D271C;
+    color: white;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.thirdSegPics {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+
+.fourthpic {
+    position: relative;
+   object-fit: cover;
+   top: 23px;
+   right: 16px;
+}
+
+.fifthpic {
+    position: relative;
+   object-fit: cover;
+   top: -26px;
+   right: 0px;
+}
+
+
+.footer-edits {
+    margin: auto;
+    margin-top: 70px;
+    width: 70%;
+}
+
+.links {
+    font-family: Rubik;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.inspiration {
+    font-family: Source Sans Pro;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 1455px) {
+    div.firstSegPics {
+      display: none;
+    }
+    
+  }
+  @media only screen and (max-width: 1555px) {
+    div.secondSegPics {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 1576px) {
+    div.thirdSegPics {
+        display: none;
+    }
+  }
